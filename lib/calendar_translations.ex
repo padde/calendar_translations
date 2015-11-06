@@ -1,0 +1,2 @@
+defmodule CalendarTranslations do
+end
