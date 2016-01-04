@@ -14,6 +14,12 @@ Add calendar_translations to your list of dependencies in `mix.exs`:
       [{:calendar_translations, "~> 0.0.1"}]
     end
 
+Make Calendar use CalendarTranslations by adding the following line to your `config/config.exs` file:
+
+```elixir
+config :calendar, :translation_module, CalendarTranslations.Translations
+```
+
 ## Contributing
 
 All contributions are welcome. Please feel free to open a pull request on
