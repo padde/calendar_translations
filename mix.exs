@@ -11,7 +11,7 @@ defmodule CalendarTranslations.Mixfile do
   end
 
   defp deps do
-    [{:calendar, "~> 0.11.1"}]
+    [{:calendar, "~> 0.11"}]
   end
 
   defp package do
