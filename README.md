@@ -7,13 +7,16 @@ Translations for the [Calendar](https://github.com/lau/calendar) library.
 
 ## Installation
 
-Add calendar_translations to your list of dependencies in `mix.exs`:
+Add `:calendar_translations` to your list of dependencies in `mix.exs`:
 
-    def deps do
-      [{:calendar_translations, "~> 0.0.2"}]
-    end
+```elixir
+def deps do
+  [{:calendar_translations, "~> 0.0.2"}]
+end
+```
 
-Make Calendar use CalendarTranslations by adding the following line to your `config/config.exs` file:
+Make Calendar use CalendarTranslations by adding the following line to your
+`config/config.exs` file:
 
 ```elixir
 config :calendar, :translation_module, CalendarTranslations.Translations
@@ -21,19 +24,23 @@ config :calendar, :translation_module, CalendarTranslations.Translations
 
 ## Usage
 
-There are 100+ languages/dialect available. Various Calendar functions
-take a lang argument, which is a symbol.
+There are 100+ languages/dialects available. Various Calendar functions take a
+`lang` argument, which is a symbol.
 
-Here is an example of the `Calendar.Strftime.strftime!/2` function where the same formatting string is used with four different langauges:
+Here is an example of the `Calendar.Strftime.strftime!/2` function where the
+same formatting string is used with four different langauges:
 
 ```elixir
-{2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :en)
+iex> {2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :en)
 "Monday 2016 January 11"
-{2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :hi)
+
+iex> {2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :hi)
 "सोमवार 2016 जनवरी 11"
-{2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :"pt-BR")
+
+iex> {2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :"pt-BR")
 "Segunda-feira 2016 Janeiro 11"
-{2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :da)
+
+iex> {2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :da)
 "mandag 2016 januar 11"
 ```
 
