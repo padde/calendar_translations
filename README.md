@@ -1,7 +1,7 @@
 # CalendarTranslations
 
 [![Build Status](https://travis-ci.org/padde/calendar_translations.svg)](https://travis-ci.org/padde/calendar_translations)
-[![Hex Version](http://img.shields.io/hexpm/v/calendar_translations.svg?style=flat)](https://hex.pm/packages/calendar_translations)
+[![Hex Version](https://img.shields.io/hexpm/v/calendar_translations.svg)](https://hex.pm/packages/calendar_translations)
 
 Translations for the [Calendar](https://github.com/lau/calendar) library.
 
