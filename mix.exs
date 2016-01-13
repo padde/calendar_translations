@@ -3,7 +3,7 @@ defmodule CalendarTranslations.Mixfile do
 
   def project do
     [app: :calendar_translations,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.1",
      package: package,
      description: description,
@@ -11,7 +11,7 @@ defmodule CalendarTranslations.Mixfile do
   end
 
   defp deps do
-    [{:calendar, "~> 0.11.1"}]
+    [{:calendar, "~> 0.11"}]
   end
 
   defp package do
