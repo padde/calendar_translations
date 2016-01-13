@@ -5,6 +5,8 @@ unless File.exist?('./rails-i18n')
   system 'git clone https://github.com/svenfuchs/rails-i18n.git'
 end
 
+system 'git -C ./rails-i18n pull origin master'
+
 TEMPLATE = <<-ERB
 def weekday_names(:"<%= locale %>"), do: {:ok, <%= weekday_names.inspect %>}
 def weekday_names_abbr(:"<%= locale %>"), do: {:ok, <%= weekday_names_abbr.inspect %>}
