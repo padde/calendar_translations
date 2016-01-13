@@ -47,7 +47,7 @@ iex> {2016, 1, 11} |> Calendar.Strftime.strftime!("%A %Y %B %e", :da)
 ## Contributing
 
 All contributions are welcome. Please feel free to open a pull request on
-GitHub: https://github.com/padde/calendar_translations
+[GitHub](https://github.com/padde/calendar_translations).
 
 ## License
 
