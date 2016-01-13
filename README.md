@@ -11,7 +11,7 @@ heavily based on [rails-i18n](https://github.com/svenfuchs/rails-i18n).
 Add calendar_translations to your list of dependencies in `mix.exs`:
 
     def deps do
-      [{:calendar_translations, "~> 0.0.1"}]
+      [{:calendar_translations, "~> 0.0.2"}]
     end
 
 Make Calendar use CalendarTranslations by adding the following line to your `config/config.exs` file:
