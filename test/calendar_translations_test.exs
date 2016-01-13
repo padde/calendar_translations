@@ -22,6 +22,10 @@ defmodule CalendarTranslationsTest do
     assert Strftime.strftime!({{2014,9,6},{17,10,20}}, "%x", :de) == "06.09.2014"
   end
 
+  test "time_format" do
+    assert Strftime.strftime!({{2014,9,6},{17,10,20}}, "%X", :de) == "17:10:20"
+  end
+
   test "date_time_format" do
     assert Strftime.strftime!({{2014,9,6},{17,10,20}}, "%c", :de) == "Samstag, 06. September 2014, 17:10 Uhr"
   end

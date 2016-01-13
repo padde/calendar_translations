@@ -535,6 +535,8 @@ defmodule CalendarTranslations.Translations do
   def date_format(:"zh-TW"), do: {:ok, "%Y-%m-%d"}
   def date_format(:"zh-YUE"), do: {:ok, "%Y-%m-%d"}
 
+  def time_format(_), do: {:ok, "%H:%M:%S"}
+
   def date_time_format(:af), do: {:ok, "%B %d, %Y %H:%M"}
   def date_time_format(:ar), do: {:ok, "%B %d, %Y %H:%M"}
   def date_time_format(:az), do: {:ok, "%d %B %Y, %H:%M"}
