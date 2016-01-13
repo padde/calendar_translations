@@ -3,8 +3,7 @@
 [![Build Status](https://travis-ci.org/padde/calendar_translations.svg)](https://travis-ci.org/padde/calendar_translations)
 [![Hex Version](http://img.shields.io/hexpm/v/calendar_translations.svg?style=flat)](https://hex.pm/packages/calendar_translations)
 
-Translations for the [Calendar](https://github.com/lau/calendar) library,
-heavily based on [rails-i18n](https://github.com/svenfuchs/rails-i18n).
+Translations for the [Calendar](https://github.com/lau/calendar) library.
 
 ## Installation
 
@@ -46,3 +45,8 @@ GitHub: https://github.com/padde/calendar_translations
 ## License
 
 CalendarTranslations is released under the MIT license. See the LICENSE file.
+
+## Credits
+
+The translations found in this project were taken from the
+[rails-i18n](https://github.com/svenfuchs/rails-i18n) project.

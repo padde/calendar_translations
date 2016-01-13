@@ -4,3 +4,4 @@
 erl_crash.dump
 *.ez
 rails-i18n
+doc

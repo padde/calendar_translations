@@ -1,4 +1,9 @@
 defmodule CalendarTranslations.Translations do
+  @moduledoc ~S"""
+  This module provides the functions used by the calendar library to fetch the
+  translations for a given language key.
+  """
+
   def month_names(:af), do: {:ok, ["Januarie", "Februarie", "Maart", "April", "Mai", "Junie", "Julie", "Augustus", "September", "Oktober", "November", "Desember"]}
   def month_names(:ar), do: {:ok, ["يناير/كانون الثّاني", "فبراير/شباط", "مارس/آذَار", "إبريل/نَيْسان", "مايو/أيار", "يونيو/حَزيران", "يوليو/تمُّوز", "أغسطس/آب", "سبتمبر/أيلول", "أكتوبر/تشرين الأوّل", "نوفمبر/تشرين الثّاني", "ديسمبر/كانون الأَوّل"]}
   def month_names(:az), do: {:ok, ["Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"]}
