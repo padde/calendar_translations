@@ -427,4 +427,220 @@ defmodule CalendarTranslations.Translations do
   def weekday_names_abbr(:"zh-HK"), do: {:ok, ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]}
   def weekday_names_abbr(:"zh-TW"), do: {:ok, ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]}
   def weekday_names_abbr(:"zh-YUE"), do: {:ok, ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]}
+
+  def date_format(:af), do: {:ok, "%Y-%m-%d"}
+  def date_format(:ar), do: {:ok, "%Y-%m-%d"}
+  def date_format(:az), do: {:ok, "%d.%m.%Y"}
+  def date_format(:be), do: {:ok, "%d-%m-%Y"}
+  def date_format(:bg), do: {:ok, "%d.%m.%Y"}
+  def date_format(:bn), do: {:ok, "%e/%m/%Y"}
+  def date_format(:bs), do: {:ok, "%d.%m.%Y."}
+  def date_format(:ca), do: {:ok, "%d-%m-%Y"}
+  def date_format(:cs), do: {:ok, "%d. %m. %Y"}
+  def date_format(:csb), do: {:ok, "%d-%m-%Y"}
+  def date_format(:cy), do: {:ok, "%d-%m-%Y"}
+  def date_format(:da), do: {:ok, "%d.%m.%Y"}
+  def date_format(:de), do: {:ok, "%d.%m.%Y"}
+  def date_format(:"de-AT"), do: {:ok, "%d.%m.%Y"}
+  def date_format(:"de-CH"), do: {:ok, "%d.%m.%Y"}
+  def date_format(:dsb), do: {:ok, "%d. %m. %Y"}
+  def date_format(:el), do: {:ok, "%d/%m/%Y"}
+  def date_format(:en), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"en-AU"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"en-CA"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"en-GB"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"en-IE"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"en-IN"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"en-NZ"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"en-US"), do: {:ok, "%m-%d-%Y"}
+  def date_format(:"en-ZA"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:eo), do: {:ok, "%Y/%m/%d"}
+  def date_format(:es), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-419"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-AR"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-CL"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-CO"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-CR"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-EC"), do: {:ok, "%-d/%m/%Y"}
+  def date_format(:"es-MX"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-PA"), do: {:ok, "%-d/%m/%Y"}
+  def date_format(:"es-PE"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-US"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"es-VE"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:et), do: {:ok, "%d.%m.%Y"}
+  def date_format(:eu), do: {:ok, "%Y/%m/%e"}
+  def date_format(:fa), do: {:ok, "%Y/%m/%d"}
+  def date_format(:fi), do: {:ok, "%-d.%-m.%Y"}
+  def date_format(:fr), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"fr-CA"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"fr-CH"), do: {:ok, "%d.%m.%Y"}
+  def date_format(:fur), do: {:ok, "%d-%m-%Y"}
+  def date_format(:gl), do: {:ok, "%e/%m/%Y"}
+  def date_format(:"gsw-CH"), do: {:ok, "%d.%m.%Y"}
+  def date_format(:he), do: {:ok, "%d-%m-%Y"}
+  def date_format(:hi), do: {:ok, "%d-%m-%Y"}
+  def date_format(:"hi-IN"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:hr), do: {:ok, "%d.%m.%Y."}
+  def date_format(:hsb), do: {:ok, "%d. %m. %Y"}
+  def date_format(:hu), do: {:ok, "%Y.%m.%d."}
+  def date_format(:id), do: {:ok, "%d %B %Y"}
+  def date_format(:is), do: {:ok, "%d.%m.%Y"}
+  def date_format(:it), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"it-CH"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:ja), do: {:ok, "%Y/%m/%d"}
+  def date_format(:km), do: {:ok, "%d %B %Y"}
+  def date_format(:kn), do: {:ok, "%Y-%m-%d"}
+  def date_format(:ko), do: {:ok, "%Y/%m/%d"}
+  def date_format(:lb), do: {:ok, "%d.%m.%Y"}
+  def date_format(:lo), do: {:ok, "%d-%m-%Y"}
+  def date_format(:lt), do: {:ok, "%Y-%m-%d"}
+  def date_format(:lv), do: {:ok, "%d.%m.%Y."}
+  def date_format(:mk), do: {:ok, "%d/%m/%Y"}
+  def date_format(:mn), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"mr-IN"), do: {:ok, "%d-%m-%Y"}
+  def date_format(:ms), do: {:ok, "%d-%m-%Y"}
+  def date_format(:nb), do: {:ok, "%d.%m.%Y"}
+  def date_format(:ne), do: {:ok, "%Y-%m-%d"}
+  def date_format(:nl), do: {:ok, "%d-%m-%Y"}
+  def date_format(:nn), do: {:ok, "%d.%m.%Y"}
+  def date_format(:or), do: {:ok, "%Y-%m-%d"}
+  def date_format(:pa), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"pap-AW"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"pap-CW"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:pl), do: {:ok, "%d-%m-%Y"}
+  def date_format(:pt), do: {:ok, "%d/%m/%Y"}
+  def date_format(:"pt-BR"), do: {:ok, "%d/%m/%Y"}
+  def date_format(:rm), do: {:ok, "%d.%m.%Y"}
+  def date_format(:ro), do: {:ok, "%d-%m-%Y"}
+  def date_format(:ru), do: {:ok, "%d.%m.%Y"}
+  def date_format(:scr), do: {:ok, "%d/%m/%Y"}
+  def date_format(:sk), do: {:ok, "%d.%m.%Y"}
+  def date_format(:sl), do: {:ok, "%d.%m.%Y"}
+  def date_format(:sr), do: {:ok, "%d/%m/%Y"}
+  def date_format(:sv), do: {:ok, "%Y-%m-%d"}
+  def date_format(:sw), do: {:ok, "%d-%m-%Y"}
+  def date_format(:ta), do: {:ok, "%d-%m-%Y"}
+  def date_format(:th), do: {:ok, "%d-%m-%Y"}
+  def date_format(:tl), do: {:ok, "%d/%m/%Y"}
+  def date_format(:tr), do: {:ok, "%d.%m.%Y"}
+  def date_format(:tt), do: {:ok, "%d.%m.%Y"}
+  def date_format(:ug), do: {:ok, "%Y-%m-%d"}
+  def date_format(:uk), do: {:ok, "%d.%m.%Y"}
+  def date_format(:ur), do: {:ok, "%d %B %Y"}
+  def date_format(:uz), do: {:ok, "%d.%m.%Y"}
+  def date_format(:vi), do: {:ok, "%d-%m-%Y"}
+  def date_format(:wo), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"zh-CN"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"zh-HK"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"zh-TW"), do: {:ok, "%Y-%m-%d"}
+  def date_format(:"zh-YUE"), do: {:ok, "%Y-%m-%d"}
+
+  def time_format(_), do: {:ok, "%H:%M:%S"}
+
+  def date_time_format(:af), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:ar), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:az), do: {:ok, "%d %B %Y, %H:%M"}
+  def date_time_format(:be), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:bg), do: {:ok, "%d %B %Y, %H:%M"}
+  def date_time_format(:bn), do: {:ok, "%e de %B de %Y %H:%M"}
+  def date_time_format(:bs), do: {:ok, "%d. %B %Y. - %H:%M:%S"}
+  def date_time_format(:ca), do: {:ok, "%d de %B de %Y %H:%M"}
+  def date_time_format(:cs), do: {:ok, "%A %d. %B %Y %H:%M"}
+  def date_time_format(:csb), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:cy), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:da), do: {:ok, "%A d. %e. %B %Y, %H.%M"}
+  def date_time_format(:de), do: {:ok, "%A, %d. %B %Y, %H:%M Uhr"}
+  def date_time_format(:"de-AT"), do: {:ok, "%A, %d. %B %Y, %H:%M Uhr"}
+  def date_time_format(:"de-CH"), do: {:ok, "%A, %d. %B %Y, %H:%M Uhr"}
+  def date_time_format(:dsb), do: {:ok, "%A, %d. %B %Y, %H:%M góź."}
+  def date_time_format(:el), do: {:ok, "%A %d %B %Y %H:%M:%S %Z"}
+  def date_time_format(:en), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:"en-AU"), do: {:ok, "%d %B, %Y %H:%M"}
+  def date_time_format(:"en-CA"), do: {:ok, "%B %d, %Y %I:%M %p"}
+  def date_time_format(:"en-GB"), do: {:ok, "%d %B, %Y %H:%M"}
+  def date_time_format(:"en-IE"), do: {:ok, "%d %B, %Y %H:%M"}
+  def date_time_format(:"en-IN"), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:"en-NZ"), do: {:ok, "%d %B, %Y %H:%M"}
+  def date_time_format(:"en-US"), do: {:ok, "%B %d, %Y %I:%M %p"}
+  def date_time_format(:"en-ZA"), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:eo), do: {:ok, "%A %d %B %Y %H:%M"}
+  def date_time_format(:es), do: {:ok, "%d de %B de %Y %H:%M"}
+  def date_time_format(:"es-419"), do: {:ok, "%A, %d de %B de %Y a las %I:%M %p"}
+  def date_time_format(:"es-AR"), do: {:ok, "%A, %d de %B de %Y a las %I:%M %p"}
+  def date_time_format(:"es-CL"), do: {:ok, "%A %d de %B de %Y %H:%M"}
+  def date_time_format(:"es-CO"), do: {:ok, "%A, %d de %B de %Y a las %I:%M %p"}
+  def date_time_format(:"es-CR"), do: {:ok, "%A, %d de %B de %Y a las %I:%M %p"}
+  def date_time_format(:"es-EC"), do: {:ok, "%-d de %B de %Y a las %-I:%M %p"}
+  def date_time_format(:"es-MX"), do: {:ok, "%A, %d de %B de %Y a las %I:%M %p"}
+  def date_time_format(:"es-PA"), do: {:ok, "%-d de %B de %Y a las %-I:%M %p"}
+  def date_time_format(:"es-PE"), do: {:ok, "%A, %d de %B del %Y a las %I:%M %p"}
+  def date_time_format(:"es-US"), do: {:ok, "%A, %d de %B de %Y a las %I:%M %p"}
+  def date_time_format(:"es-VE"), do: {:ok, "%A, %d de %B de %Y a las %I:%M%p"}
+  def date_time_format(:et), do: {:ok, "%a, %d. %b %Y, %H:%M:%S %z"}
+  def date_time_format(:eu), do: {:ok, "%Y(e)ko %Bren %e,  %H:%M"}
+  def date_time_format(:fa), do: {:ok, "%e %B %Y، ساعت %H:%M"}
+  def date_time_format(:fi), do: {:ok, "%e. %Bta %Y %H.%M"}
+  def date_time_format(:fr), do: {:ok, "%A %d %B %Y %Hh%M"}
+  def date_time_format(:"fr-CA"), do: {:ok, "%A %d %B %Y %H h %M"}
+  def date_time_format(:"fr-CH"), do: {:ok, "%A, %d %B %Y %H h %M min %S s %Z"}
+  def date_time_format(:fur), do: {:ok, "%d di %B dal %Y %H:%M"}
+  def date_time_format(:gl), do: {:ok, "%A %e de %B de %Y ás %H:%M"}
+  def date_time_format(:"gsw-CH"), do: {:ok, "%A, %d. %B %Y, %H:%M Uhr"}
+  def date_time_format(:he), do: {:ok, "%d ב%B, %Y %H:%M"}
+  def date_time_format(:hi), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:"hi-IN"), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:hr), do: {:ok, "%e. %B %Y. %H:%M"}
+  def date_time_format(:hsb), do: {:ok, "%A, %d. %B %Y, %H:%M hodź."}
+  def date_time_format(:hu), do: {:ok, "%Y. %B %e., %A, %H:%M"}
+  def date_time_format(:id), do: {:ok, "%d %B %Y %H.%M"}
+  def date_time_format(:is), do: {:ok, "%A %e. %B %Y kl. %H:%M"}
+  def date_time_format(:it), do: {:ok, "%d %B %Y %H:%M"}
+  def date_time_format(:"it-CH"), do: {:ok, "%d %B %Y %H:%M"}
+  def date_time_format(:ja), do: {:ok, "%Y年%m月%d日(%a) %H時%M分%S秒 %z"}
+  def date_time_format(:km), do: {:ok, "%d %B %Y %H:%M"}
+  def date_time_format(:kn), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:ko), do: {:ok, "%Y년 %m월 %d일, %H시 %M분 %S초 %Z"}
+  def date_time_format(:lb), do: {:ok, "%A, %d. %B %Y, %H:%M Auer"}
+  def date_time_format(:lo), do: {:ok, "%d %B %Y %H:%M น."}
+  def date_time_format(:lt), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:lv), do: {:ok, "%Y. gada %e. %B, %H:%M:%S"}
+  def date_time_format(:mk), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:mn), do: {:ok, "%Y %B %d, %H:%M:%S"}
+  def date_time_format(:"mr-IN"), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:ms), do: {:ok, "%d %B, %Y %H:%M"}
+  def date_time_format(:nb), do: {:ok, "%A, %e. %B %Y, %H:%M"}
+  def date_time_format(:ne), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:nl), do: {:ok, "%d %B %Y %H:%M"}
+  def date_time_format(:nn), do: {:ok, "%A, %e. %B %Y, %H:%M"}
+  def date_time_format(:or), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:pa), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:"pap-AW"), do: {:ok, "%B %d, %Y %H.%M"}
+  def date_time_format(:"pap-CW"), do: {:ok, "%B %d, %Y %H.%M"}
+  def date_time_format(:pl), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:pt), do: {:ok, "%A, %d de %B de %Y, %H:%Mh"}
+  def date_time_format(:"pt-BR"), do: {:ok, "%d de %B de %Y, %H:%M"}
+  def date_time_format(:rm), do: {:ok, "%A, %d. %B %Y, %H:%M Uhr"}
+  def date_time_format(:ro), do: {:ok, "%d %B %Y %H:%M"}
+  def date_time_format(:ru), do: {:ok, "%d %B %Y, %H:%M"}
+  def date_time_format(:scr), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:sk), do: {:ok, "%A %d. %B %Y %H:%M"}
+  def date_time_format(:sl), do: {:ok, "%d. %B, %Y ob %H:%M"}
+  def date_time_format(:sr), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:sv), do: {:ok, "%e %B %Y %H:%M"}
+  def date_time_format(:sw), do: {:ok, "%A, %e. %B %Y, %H:%M:%S"}
+  def date_time_format(:ta), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:th), do: {:ok, "%d %B %Y %H:%M น."}
+  def date_time_format(:tl), do: {:ok, "ika-%d ng %B ng %Y %H:%M"}
+  def date_time_format(:tr), do: {:ok, "%e %B %Y, %A, %H:%M"}
+  def date_time_format(:tt), do: {:ok, "%d %B %Y, %H:%M"}
+  def date_time_format(:ug), do: {:ok, "%Y %b %d %H:%M"}
+  def date_time_format(:uk), do: {:ok, "%d %B %Y, %H:%M"}
+  def date_time_format(:ur), do: {:ok, "%B %d، %Y %p %H:%M"}
+  def date_time_format(:uz), do: {:ok, "%d %B %Y, %H:%M"}
+  def date_time_format(:vi), do: {:ok, "%d %B, %Y %H:%M"}
+  def date_time_format(:wo), do: {:ok, "%B %d, %Y %H:%M"}
+  def date_time_format(:"zh-CN"), do: {:ok, "%Y年%b%d日 %H:%M"}
+  def date_time_format(:"zh-HK"), do: {:ok, "%Y年%b%d日 %H:%M"}
+  def date_time_format(:"zh-TW"), do: {:ok, "%Y年%b%d日 %H:%M"}
+  def date_time_format(:"zh-YUE"), do: {:ok, "%Y年%b%d號 %H:%M"}
 end

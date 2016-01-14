@@ -5,11 +5,15 @@ unless File.exist?('./rails-i18n')
   system 'git clone https://github.com/svenfuchs/rails-i18n.git'
 end
 
+system 'git -C ./rails-i18n pull origin master'
+
 TEMPLATE = <<-ERB
 def weekday_names(:"<%= locale %>"), do: {:ok, <%= weekday_names.inspect %>}
 def weekday_names_abbr(:"<%= locale %>"), do: {:ok, <%= weekday_names_abbr.inspect %>}
 def month_names(:"<%= locale %>"), do: {:ok, <%= month_names.inspect %>}
 def month_names_abbr(:"<%= locale %>"), do: {:ok, <%= month_names_abbr.inspect %>}
+def date_format(:"<%= locale %>"), do: {:ok, <%= date_format.inspect %>}
+def date_time_format(:"<%= locale %>"), do: {:ok, <%= date_time_format.inspect %>}
 ERB
 
 res = Dir.glob('./rails-i18n/rails/locale/**/*.yml').flat_map do |file|
@@ -21,6 +25,8 @@ res = Dir.glob('./rails-i18n/rails/locale/**/*.yml').flat_map do |file|
   weekday_names = yaml.fetch(language).fetch('date').fetch('day_names').rotate
   month_names = yaml.fetch(language).fetch('date').fetch('month_names')[1..-1]
   month_names_abbr = yaml.fetch(language).fetch('date').fetch('abbr_month_names')[1..-1]
+  date_format = yaml.fetch(language).fetch('date').fetch('formats').fetch('default')
+  date_time_format = yaml.fetch(language).fetch('time').fetch('formats').fetch('long')
 
   ERB.new(TEMPLATE).result(binding).lines
 end
