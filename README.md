@@ -25,7 +25,7 @@ config :calendar, :translation_module, CalendarTranslations.Translations
 ## Usage
 
 There are 100+ languages/dialects available. Various Calendar functions take a
-`lang` argument, which is a symbol.
+`lang` argument, which is an atom.
 
 Here is an example of the `Calendar.Strftime.strftime!/2` function where the
 same formatting string is used with four different langauges:
