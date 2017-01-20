@@ -7,8 +7,8 @@ defmodule CalendarTranslations.Mixfile do
     [app: :calendar_translations,
      version: @version,
      elixir: "~> 1.1",
-     package: package,
-     description: description,
+     package: package(),
+     description: description(),
      deps: deps(),
 
      # Docs
