@@ -9,7 +9,7 @@ defmodule CalendarTranslations.Mixfile do
      elixir: "~> 1.1",
      package: package,
      description: description,
-     deps: deps,
+     deps: deps(),
 
      # Docs
      name: "CalendarTranslations",
