@@ -1,8 +1,9 @@
-%{"calendar": {:hex, :calendar, "0.12.3"},
-  "certifi": {:hex, :certifi, "0.3.0"},
-  "ex_doc": {:hex, :ex_doc, "0.11.3"},
-  "hackney": {:hex, :hackney, "1.4.8"},
-  "idna": {:hex, :idna, "1.0.3"},
-  "mimerl": {:hex, :mimerl, "1.0.2"},
-  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
-  "tzdata": {:hex, :tzdata, "0.5.6"}}
+%{"calendar": {:hex, :calendar, "0.12.3", "65e5024650b4b5526fe6d7fad13c8eafa5d015cb36081bb3dbb501f6d3422454", [:mix], [{:tzdata, "~> 0.5.6 or ~> 0.1.8", [hex: :tzdata, optional: false]}]},
+  "certifi": {:hex, :certifi, "0.3.0", "389d4b126a47895fe96d65fcf8681f4d09eca1153dc2243ed6babad0aac1e763", [:rebar3], []},
+  "earmark": {:hex, :earmark, "1.0.3", "89bdbaf2aca8bbb5c97d8b3b55c5dd0cff517ecc78d417e87f1d0982e514557b", [:mix], []},
+  "ex_doc": {:hex, :ex_doc, "0.14.5", "c0433c8117e948404d93ca69411dd575ec6be39b47802e81ca8d91017a0cf83c", [:mix], [{:earmark, "~> 1.0", [hex: :earmark, optional: false]}]},
+  "hackney": {:hex, :hackney, "1.4.8", "c8c6977ed55cc5095e3929f6d94a6f732dd2e31ae42a7b9236d5574ec3f5be13", [:rebar3], [{:certifi, "0.3.0", [hex: :certifi, optional: false]}, {:idna, "1.0.3", [hex: :idna, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_hostname, "1.0.5", [hex: :ssl_verify_hostname, optional: false]}]},
+  "idna": {:hex, :idna, "1.0.3", "d456a8761cad91c97e9788c27002eb3b773adaf5c893275fc35ba4e3434bbd9b", [:rebar3], []},
+  "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5", "2e73e068cd6393526f9fa6d399353d7c9477d6886ba005f323b592d389fb47be", [:make], []},
+  "tzdata": {:hex, :tzdata, "0.5.6", "d44c59175b8e9a170b3b17d6933820de98a3f0932f3a0615d884b8c20e93a87a", [:mix], [{:hackney, "~> 1.0", [hex: :hackney, optional: false]}]}}
