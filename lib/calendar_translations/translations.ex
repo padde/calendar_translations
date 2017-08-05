@@ -535,6 +535,112 @@ defmodule CalendarTranslations.Translations do
   def date_format(:"zh-TW"), do: {:ok, "%Y-%m-%d"}
   def date_format(:"zh-YUE"), do: {:ok, "%Y-%m-%d"}
 
+  def time_format(:af), do: {:ok, "%H:%M"}
+  def time_format(:ar), do: {:ok, "%H:%M"}
+  def time_format(:az), do: {:ok, "%H:%M"}
+  def time_format(:be), do: {:ok, "%H:%M"}
+  def time_format(:bg), do: {:ok, "%H:%M"}
+  def time_format(:bn), do: {:ok, "%H:%M"}
+  def time_format(:bs), do: {:ok, "%H:%M:%S"}
+  def time_format(:ca), do: {:ok, "%H:%M"}
+  def time_format(:cs), do: {:ok, "%H:%M"}
+  def time_format(:csb), do: {:ok, "%H:%M"}
+  def time_format(:cy), do: {:ok, "%H:%M"}
+  def time_format(:da), do: {:ok, "%H.%M"}
+  def time_format(:de), do: {:ok, "%H:%M Uhr"}
+  def time_format(:"de-AT"), do: {:ok, "%H:%M Uhr"}
+  def time_format(:"de-CH"), do: {:ok, "%H:%M Uhr"}
+  def time_format(:dsb), do: {:ok, "%H:%M góź."}
+  def time_format(:el), do: {:ok, "%H:%M:%S"}
+  def time_format(:en), do: {:ok, "%H:%M"}
+  def time_format(:"en-AU"), do: {:ok, "%H:%M"}
+  def time_format(:"en-CA"), do: {:ok, "%I:%M %p"}
+  def time_format(:"en-GB"), do: {:ok, "%H:%M"}
+  def time_format(:"en-IE"), do: {:ok, "%H:%M"}
+  def time_format(:"en-IN"), do: {:ok, "%H:%M"}
+  def time_format(:"en-NZ"), do: {:ok, "%H:%M"}
+  def time_format(:"en-US"), do: {:ok, "%I:%M %p"}
+  def time_format(:"en-ZA"), do: {:ok, "%H:%M"}
+  def time_format(:eo), do: {:ok, "%H:%M"}
+  def time_format(:es), do: {:ok, "%H:%M"}
+  def time_format(:"es-419"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-AR"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-CL"), do: {:ok, "%H:%M"}
+  def time_format(:"es-CO"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-CR"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-EC"), do: {:ok, "%-I:%M %p"}
+  def time_format(:"es-MX"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-PA"), do: {:ok, "%-I:%M %p"}
+  def time_format(:"es-PE"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-US"), do: {:ok, "%I:%M %p"}
+  def time_format(:"es-VE"), do: {:ok, "%I:%M%p"}
+  def time_format(:et), do: {:ok, "%H:%M:%S"}
+  def time_format(:eu), do: {:ok, "%H:%M"}
+  def time_format(:fa), do: {:ok, "%H:%M"}
+  def time_format(:fi), do: {:ok, "%H.%M"}
+  def time_format(:fr), do: {:ok, "%Hh%M"}
+  def time_format(:"fr-CA"), do: {:ok, "%H h %M"}
+  def time_format(:"fr-CH"), do: {:ok, "%H h %M min %S s"}
+  def time_format(:fur), do: {:ok, "%H:%M"}
+  def time_format(:gl), do: {:ok, "%H:%M"}
+  def time_format(:"gsw-CH"), do: {:ok, "%H:%M Uhr"}
+  def time_format(:he), do: {:ok, "%H:%M"}
+  def time_format(:hi), do: {:ok, "%H:%M"}
+  def time_format(:"hi-IN"), do: {:ok, "%H:%M"}
+  def time_format(:hr), do: {:ok, "%e. %B %Y. %H:%M"}
+  def time_format(:hsb), do: {:ok, "%H:%M hodź."}
+  def time_format(:hu), do: {:ok, "%H:%M"}
+  def time_format(:id), do: {:ok, "%H.%M"}
+  def time_format(:is), do: {:ok, "%H:%M"}
+  def time_format(:it), do: {:ok, "%H:%M"}
+  def time_format(:"it-CH"), do: {:ok, "%H:%M"}
+  def time_format(:ja), do: {:ok, "%H時%M分%S秒"}
+  def time_format(:km), do: {:ok, "%H:%M"}
+  def time_format(:kn), do: {:ok, "%H:%M"}
+  def time_format(:ko), do: {:ok, "%H시 %M분 %S초"}
+  def time_format(:lb), do: {:ok, "%H:%M Auer"}
+  def time_format(:lo), do: {:ok, "%H:%M น."}
+  def time_format(:lt), do: {:ok, "%H:%M"}
+  def time_format(:lv), do: {:ok, "%H:%M:%S"}
+  def time_format(:mk), do: {:ok, "%H:%M"}
+  def time_format(:mn), do: {:ok, "%H:%M:%S"}
+  def time_format(:"mr-IN"), do: {:ok, "%H:%M"}
+  def time_format(:ms), do: {:ok, "%H:%M"}
+  def time_format(:nb), do: {:ok, "%H:%M"}
+  def time_format(:ne), do: {:ok, "%H:%M"}
+  def time_format(:nl), do: {:ok, "%H:%M"}
+  def time_format(:nn), do: {:ok, "%H:%M"}
+  def time_format(:or), do: {:ok, "%H:%M"}
+  def time_format(:pa), do: {:ok, "%H:%M"}
+  def time_format(:"pap-AW"), do: {:ok, "%H.%M"}
+  def time_format(:"pap-CW"), do: {:ok, "%H.%M"}
+  def time_format(:pl), do: {:ok, "%H:%M"}
+  def time_format(:pt), do: {:ok, "%H:%Mh"}
+  def time_format(:"pt-BR"), do: {:ok, "%H:%M"}
+  def time_format(:rm), do: {:ok, "%H:%M"}
+  def time_format(:ro), do: {:ok, "%H:%M"}
+  def time_format(:ru), do: {:ok, "%H:%M"}
+  def time_format(:scr), do: {:ok, "%H:%M"}
+  def time_format(:sk), do: {:ok, "%H:%M"}
+  def time_format(:sl), do: {:ok, "%H:%M"}
+  def time_format(:sr), do: {:ok, "%H:%M"}
+  def time_format(:sv), do: {:ok, "%H:%M"}
+  def time_format(:sw), do: {:ok, "%H:%M:%S"}
+  def time_format(:ta), do: {:ok, "%H:%M"}
+  def time_format(:th), do: {:ok, "%H:%M น."}
+  def time_format(:tl), do: {:ok, "%H:%M"}
+  def time_format(:tr), do: {:ok, "%H:%M"}
+  def time_format(:tt), do: {:ok, "%H:%M"}
+  def time_format(:ug), do: {:ok, "%H:%M"}
+  def time_format(:uk), do: {:ok, "%H:%M"}
+  def time_format(:ur), do: {:ok, "%H:%M"}
+  def time_format(:uz), do: {:ok, "%H:%M"}
+  def time_format(:vi), do: {:ok, "%H:%M"}
+  def time_format(:wo), do: {:ok, "%H:%M"}
+  def time_format(:"zh-CN"), do: {:ok, "%H:%M"}
+  def time_format(:"zh-HK"), do: {:ok, "%H:%M"}
+  def time_format(:"zh-TW"), do: {:ok, "%H:%M"}
+  def time_format(:"zh-YUE"), do: {:ok, "%H:%M"}
   def time_format(_), do: {:ok, "%H:%M:%S"}
 
   def date_time_format(:af), do: {:ok, "%B %d, %Y %H:%M"}
