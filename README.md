@@ -11,7 +11,7 @@ Add `:calendar_translations` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:calendar_translations, "~> 0.0.4"}]
+  [{:calendar_translations, "~> 0.0.5"}]
 end
 ```
 
