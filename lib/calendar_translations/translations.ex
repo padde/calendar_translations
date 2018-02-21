@@ -615,7 +615,8 @@ defmodule CalendarTranslations.Translations do
   def time_format(:"pap-AW"), do: {:ok, "%H.%M"}
   def time_format(:"pap-CW"), do: {:ok, "%H.%M"}
   def time_format(:pl), do: {:ok, "%H:%M"}
-  def time_format(:pt), do: {:ok, "%H:%Mh"}
+  #def time_format(:pt), do: {:ok, "%H:%Mh"}
+  def time_format(:"pt"), do: {:ok, "%H:%M"}
   def time_format(:"pt-BR"), do: {:ok, "%H:%M"}
   def time_format(:rm), do: {:ok, "%H:%M"}
   def time_format(:ro), do: {:ok, "%H:%M"}
@@ -723,7 +724,8 @@ defmodule CalendarTranslations.Translations do
   def date_time_format(:"pap-AW"), do: {:ok, "%B %d, %Y %H.%M"}
   def date_time_format(:"pap-CW"), do: {:ok, "%B %d, %Y %H.%M"}
   def date_time_format(:pl), do: {:ok, "%B %d, %Y %H:%M"}
-  def date_time_format(:pt), do: {:ok, "%A, %d de %B de %Y, %H:%Mh"}
+  #def date_time_format(:pt), do: {:ok, "%A, %d de %B de %Y, %H:%Mh"}
+  def date_time_format(:"pt"), do: {:ok, "%d de %B de %Y, %H:%M"}
   def date_time_format(:"pt-BR"), do: {:ok, "%d de %B de %Y, %H:%M"}
   def date_time_format(:rm), do: {:ok, "%A, %d. %B %Y, %H:%M Uhr"}
   def date_time_format(:ro), do: {:ok, "%d %B %Y %H:%M"}
